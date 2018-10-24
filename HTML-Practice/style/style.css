@@ -1,0 +1,152 @@
+/*Stylesheet for DCI-HTML-Practice */
+html, body {
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*Header + Main Navigation Styles */
+header#main-header {
+    background-color: bisque;
+}
+
+nav#main-navigation {
+    background-color: darkred;
+}
+
+#main-navigation ul {
+    margin:0;
+    padding:0;
+}
+
+#main-navigation ul li.menu-item {
+    display: inline-block;
+    list-style-type:none;
+    padding: 10px 6px;
+}
+
+#main-navigation ul li.menu-item a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    transition:all 1s;
+}
+
+#main-navigation ul li.menu-item a:hover {
+color: coral;
+}
+
+.logo-link img {
+    width:250px;
+}
+
+.logo-link:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/* Flexbox Layout */
+
+@media screen and (min-width:600px) {
+    .flexbox {
+        display: flex;
+    }
+    
+    #main-content {
+        order:2;
+        margin:0 1.5%;
+    }
+
+    #sidebar-left {
+        order:1;
+        flex-grow:0;
+        flex-shrink:0;
+        flex-basis:18%;
+        padding:0 1%;
+    }
+
+    #sidebar-right {
+        order:3;
+        flex-grow:0;
+        flex-shrink:0;
+        flex-basis:18%;
+        padding:0 1%;
+    }
+}
+
+aside {
+    padding-top:42px;
+    background-color: bisque;
+    padding:15px 0;
+}
+
+aside h3 {
+    text-align:center;
+    color: darkred;
+    font-style: italic;
+    font-weight: normal;
+    border-bottom:3px solid darkred;
+    padding-bottom:8px;
+}
+
+aside ul {
+    margin:0;
+    padding:0;
+}
+
+aside li {
+    list-style-type: none;
+    padding:10px 15px;
+    margin:15px 10px;
+    background-color:rgba(255,255,255,0.7)
+}
+
+aside a {
+    color:darkred;
+    text-decoration: none;
+}
+
+/* Style for main-content */
+
+main {
+    padding-bottom:3px;
+}
+
+main h1, main h2, main h3, main h4 {
+    color:darkred;
+    font-weight:normal;
+    font-style: italic;
+}
+
+main section {
+    padding-top:23px;
+    padding-bottom:15px;
+    border-bottom: 3px solid darkred;
+}
+
+/* Footer Styles */
+
+footer {
+    background-color: darkred;
+    padding:23px 12px;
+    text-align:center;
+}
+
+footer li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+footer li a {
+    color:antiquewhite;
+    text-decoration: none;
+    transition:all 1s;
+}
+
+footer li a:hover {
+    color:coral;
+}
+
+
