@@ -44,7 +44,7 @@ html, body {
     font-size: 2.2rem;
   }
   
-  p, li, dt, dd, td {
+  p, li, dt, dd, td, blockquote, abbr {
     font-size: 1.6rem;
     line-height: 1.5;
   }
