@@ -20,4 +20,18 @@ body {
     padding:20px;
 }
 
+#forkme_banner {
+    font-size:12px;
+    background-color:rgba(255,255,255,0.7);
+    text-decoration:none;
+    padding:5px 3px;
+    color:#8c3310;
+    font-weight:bold;
+    border:1px solid #8c3310;
+    transition:all 1s;
+}
 
+#forkme_banner:hover {
+    color:#fff;
+    background-color: #8c3310;
+}
