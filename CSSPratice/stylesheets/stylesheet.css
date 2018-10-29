@@ -45,10 +45,6 @@ header h1, header h2{
     padding-bottom:15px;
 }
 
-header h1 {
-    border-bottom:1px solid #fff;
-}
-
 header a {
     color:#ccc;
     text-decoration:none;
@@ -57,4 +53,21 @@ header a {
 
 header a:hover {
     border-bottom-style: solid;
+}
+
+#downloads {
+    width:150px;
+    height:auto;
+    position: absolute;
+    bottom:5px;
+    right:5px;
+    font-size:12px;
+    padding:10px;
+    border:1px solid #ccc;
+
+}
+
+#downloads a {
+    display: block;
+    margin-bottom:10px;
 }
