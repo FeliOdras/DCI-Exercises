@@ -7,3 +7,6 @@ Collection of Exercises from DCI FBW 12
 2. [HTML Semantic Tags](https://github.com/FeliOdras/DCI-Exercises/tree/master/HTML-Practice)
 3. [HTML Inline vs. Block Elements](https://github.com/FeliOdras/DCI-Exercises/tree/master/HTML-Inline-Block-Elements)
 4. [HTML Elements](https://github.com/FeliOdras/DCI-Exercises/tree/html-102)
+
+## CSS
+5. [CSS Practice](https://github.com/FeliOdras/DCI-Exercises/tree/CSSPractice)
