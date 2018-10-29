@@ -71,3 +71,17 @@ header a:hover {
     display: block;
     margin-bottom:10px;
 }
+
+#main_content_wrap {
+    padding:20px;
+    background-color:#fff;
+    border:1px solid #aaa;
+}
+
+#footer_wrap {
+    background-color:#eee;
+    padding:20px;
+    border-left:1px solid #aaa;
+    border-right:1px solid #aaa;
+    border-bottom:1px solid #aaa;
+}
