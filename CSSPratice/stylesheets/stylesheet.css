@@ -86,3 +86,20 @@ header a:hover {
     border-bottom:1px solid #aaa;
     font-size:12px;
 }
+
+#main_content_wrap a, footer a { 
+    color:#666;
+}
+
+ul li a:last-child {
+    text-decoration:none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:12px;
+}
+
+ul li a:last-child:before {
+    content:'[';
+}
+
+ul li a:last-child:after {
+    content:']';
