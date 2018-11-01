@@ -57,7 +57,7 @@ body {
     line-height:150%;
 }
 
-p, h1, h2, h3 {
+p, h1, h2, h3, blockquote {
     max-width:450px;
     margin:auto;
 }
@@ -70,4 +70,28 @@ h1, h2, h3 {
 
 p {
     text-indent:2em;
+}
+
+blockquote {
+    margin:23px auto;
+    padding:23px 23px 23px 142px;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+    text-align: right;
+    position: relative;
+}
+
+.author {
+    display:block;
+    position: absolute;
+    left:-42px;
+    top:23px;
+    background-color:#fff;
+    font-family: "Amatic SC", sans-serif;
+    font-weight:bold;
+    line-height: 130%;
+}
+
+.author small {
+    font-weight:normal;
 }
