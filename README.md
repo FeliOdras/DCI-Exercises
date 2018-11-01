@@ -9,4 +9,5 @@ Collection of Exercises from DCI FBW 12
 4. [HTML Elements](https://github.com/FeliOdras/DCI-Exercises/tree/html-102)
 
 ## CSS
+
 5. [CSS Practice](https://github.com/FeliOdras/DCI-Exercises/tree/CSSPractice)
