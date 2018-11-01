@@ -1,0 +1,25 @@
+/* amatic-sc-regular - latin */
+@font-face {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/amatic-sc-v11-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Amatic SC Regular'), local('AmaticSC-Regular'),
+         url('fonts/amatic-sc-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/amatic-sc-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/amatic-sc-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/amatic-sc-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/amatic-sc-v11-latin-regular.svg#AmaticSC') format('svg'); /* Legacy iOS */
+  }
+  
+
+p, h1, h2, h3 {
+    max-width:450px;
+    margin:auto;
+}
+
+h1, h2, h3 {
+    margin-top:42px;
+    margin-bottom:23px;
+    font-family: "Amatic SC", sans-serif;
+}
