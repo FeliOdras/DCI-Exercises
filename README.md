@@ -10,3 +10,4 @@ Collection of Exercises from DCI FBW 12
 
 ## CSS
 5. [CSS Practice](https://github.com/FeliOdras/DCI-Exercises/tree/CSSPractice)
+6. [CSS Web Typograohy](https://github.com/FeliOdras/DCI-Exercises/tree/CSSWebTypography)
