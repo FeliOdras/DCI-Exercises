@@ -32,8 +32,8 @@
     font-weight:700;
 }
 
-section--gray {
-    font-family: "Roboto", sans-serif;
+.section--gray {
+    font-family: Roboto, sans-serif;
 }
 
 .system-fonts {
@@ -42,4 +42,12 @@ section--gray {
 
 em, strong {
     font-synthesis: none;
+  }
+  
+  em {
+    font-style: italic;
+  }
+  
+  strong {
+    font-weight: bold;  /* Or 700 */
   }
