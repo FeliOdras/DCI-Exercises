@@ -51,3 +51,21 @@
     bottom: 0;
     right: 0;
   }
+
+  a:link,
+a:visited {
+  color: #5D6063;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 50px;
+  background: #D6E9FE;
+}
