@@ -24,10 +24,6 @@
     display: block;
   }
 
-  .absolute {
-      position: relative;
-  }
-
   .item-relative {
     position: relative;
     top: 30px;
@@ -44,4 +40,14 @@
     position: absolute;
     top: 10px;
     left: 10px;
+  }
+
+  .absolute {
+      position: relative;
+  }
+
+  .item-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
   }
