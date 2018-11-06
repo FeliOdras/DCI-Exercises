@@ -98,11 +98,14 @@ a:hover {
   .features-menu li {
     list-style: none;
     border-bottom: 1px solid #FFF;
-  
     padding: 0 40px 10px 20px;
     margin: 10px;
   }
   
   .features-menu li:last-of-type {
     border-bottom: none;
+  }
+
+  .dropdown {
+      position: relative;
   }
