@@ -70,3 +70,16 @@ a:hover {
   background: #D6E9FE;
   z-index:999;
 }
+
+.menu {
+    margin-top: 15px;
+  }
+  
+  .menu > li {
+    display: inline;
+    margin-right: 50px;
+  }
+  
+  .menu > li:last-of-type {
+    margin-right: 0;
+  }
