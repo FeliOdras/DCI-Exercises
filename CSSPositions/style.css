@@ -24,6 +24,10 @@
     display: block;
   }
 
+  .absolute {
+      position: relative;
+  }
+
   .item-relative {
     position: relative;
     top: 30px;
