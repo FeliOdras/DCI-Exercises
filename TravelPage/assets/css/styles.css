@@ -3,7 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    height:100%;
+}
 
 body {
     background-color:#ccc;
+    padding:3em 1.5em;
+    height:100%;
+}
+
+main {
+    background-color:#fff;
+    height:100%;
+}
+
+.box {
+    width:50%;
+    height:100%;
+    float:left;
+}
+
+.box-2 {
+    background-image:url(../images/beach.jpg);
+    background-size: cover;
+    background-position: center;
 }
