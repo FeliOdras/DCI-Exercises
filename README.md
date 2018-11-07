@@ -13,3 +13,4 @@ Collection of Exercises from DCI FBW 12
 5. [CSS Practice](https://github.com/FeliOdras/DCI-Exercises/tree/CSSPractice)
 6. [CSS Web Typography](https://github.com/FeliOdras/DCI-Exercises/tree/CSSWebTypography)
 7. [CSS Positions](https://github.com/FeliOdras/DCI-Exercises/tree/CSSPositions)
+8. [CSS TravelPage](https://github.com/FeliOdras/DCI-Exercises/tree/TravelPage)
