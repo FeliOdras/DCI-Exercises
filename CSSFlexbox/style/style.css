@@ -84,18 +84,34 @@ header, footer {
 
   .form-row {
       padding:.5em;
+      display: flex;
+      justify-content:flex-end;
   }
 
   .form-row label {
       padding:.5em 1em .5em 0;
+      flex:1;
   }
 
   .form-row input {
       padding:.5em;
+      flex:2;
   }
 
   .form-row > button {
-        background: gray;
-        color: white;
-        border: 0;
-   }
+    background: gray;
+    color: white;
+    border: 0;
+}
+
+  @media screen and (min-width: 768px) {
+    .form-row > input {
+     flex: 3;  
+    }
+}
+
+    @media screen and (min-width: 992px) {
+        .form-row > input {
+         flex: 4;  
+    }
+}
