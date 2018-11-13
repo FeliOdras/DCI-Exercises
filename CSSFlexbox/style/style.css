@@ -27,13 +27,16 @@
     box-sizing: border-box;
 }
 
-body {
+body.layout {
     margin:0;
+    display: flex;
+    min-height:100vh;
+    flex-direction: column;
 }
 
 main {
     display:flex;
-    min-height: calc(100vh - 40vh);
+    flex:1;
 }
 
 main > article {
