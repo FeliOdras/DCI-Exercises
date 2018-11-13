@@ -66,4 +66,9 @@ header, footer {
     main {
       flex-direction: column;
     }
+
+    main > nav,
+    main > aside {
+        flex-basis:auto;
+    }
   }
