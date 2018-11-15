@@ -34,3 +34,10 @@
          url('../fonts/roboto-v18-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/roboto-v18-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
   }
+
+  * {
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+      font-family: Roboto, sans-serif;
+  }
