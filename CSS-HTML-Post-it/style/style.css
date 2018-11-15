@@ -59,6 +59,24 @@
       background-color: #fff;
       display: inline-block;
       position: relative;
+      padding:15px;
+      text-align: left;
+      color:#7989BE;
+  }
+
+  .postIt h2 {
+      font-size: 10px;
+      font-weight:normal;
+  }
+
+  .postIt h2:before{
+      width:9px;
+      height:9px;
+      content:'';
+      background-color:#7989BE;
+      border-radius:100%;
+      display: inline-block;
+      margin-right:5px;
   }
 
   .postIt.active {
