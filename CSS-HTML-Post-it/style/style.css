@@ -91,6 +91,7 @@
       padding-bottom:8px;
       position:relative;
       overflow: hidden;
+      margin-bottom:7px;
   }
   .postIt h6:before {
       content:'';
@@ -106,6 +107,17 @@
   .postIt.active {
       right:50px;
       bottom:50px;
+      background-color:#fdef9e;
+      color:#FD8C4E;
+  }
+
+  .postIt.active h6 {
+      border-color:#FD8C4E;
+  }
+
+  .postIt.active h2:before,
+  .postIt.postIt.active h6:before {
+      background-color:#FD8C4E;
   }
 
   .mainContent {
@@ -114,7 +126,26 @@
       width:170px;
   }
 
+  footer,
   .sunrise, .sunset {
-      font-size: 10px;
-  }
+    font-size: 10px;  
+    display:inline-block; 
+}
+.sunrise {
+    float:left;
+}
+.sunset {
+    float:right;
+}
+
+.minutesOutput {
+    clear:both;
+}
+
+footer {
+    padding:10px 0;
+}
+
+
+  
 
