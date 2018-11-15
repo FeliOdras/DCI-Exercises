@@ -16,3 +16,6 @@ Collection of Exercises from DCI FBW 12
 8. [CSS TravelPage](https://github.com/FeliOdras/DCI-Exercises/tree/master/CSSTravelPage)
 9. [CSS Grid](https://github.com/FeliOdras/DCI-Exercises/tree/master/CSSGrid)
 10.[CSS Flexbox](https://github.com/FeliOdras/DCI-Exercises/tree/master/CSSFlexbox)
+
+## CSS + HTML
+11. [Post-it](https://github.com/FeliOdras/DCI-Exercises/tree/master/CSS-HTML-Post-it)
