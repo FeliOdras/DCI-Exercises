@@ -106,8 +106,7 @@
 
   .postIt.active {
       right:50px;
-      bottom:50px;
-      background-color:#fdef9e;
+      bottom:50px; background-color:#fdef9e;
       color:#FD8C4E;
   }
 
