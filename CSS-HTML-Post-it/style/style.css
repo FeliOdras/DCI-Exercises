@@ -89,3 +89,8 @@
       right:50px;
       bottom:50px;
   }
+
+  .mainContent {
+      position: absolute;
+      bottom:0;
+  }
