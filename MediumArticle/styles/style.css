@@ -112,3 +112,52 @@ section p:first-of-type:first-letter {
     font-size: 3rem;
 }
 
+strong {
+    font-weight: 500;
+}
+
+.authorMeta , footer {
+   margin:20px auto;
+   background-color:#fff;
+   border-radius:10px;
+}
+
+.authorMeta, footer {
+    color:#666;
+}
+
+.authorMeta .authorPortait{
+    border-radius:100%;
+    margin:15px;
+    width:80px;
+    float:left;
+}
+
+article:after,
+footer:after,
+.authorMeta:after {
+    clear:both;
+    content:'';
+    display:table;
+}
+
+.authorMeta span {
+    display:block;
+}
+
+.authorMeta .authorName {
+    padding-top:20px;
+    font-weight:500;
+    display:inline-block;
+    width: auto;
+}
+
+.authorMeta .authorFollow {
+    display: inline-block;
+    margin:0 5px;
+    border:1px solid #ddd;
+    border-radius:5px;
+    padding:2px 4px;
+    font-size:0.7rem;
+}
+
