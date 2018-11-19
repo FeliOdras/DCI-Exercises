@@ -161,3 +161,30 @@ footer:after,
     font-size:0.7rem;
 }
 
+ul, ol {
+    padding-left:20px;
+}
+
+h3.question {
+    padding-left:10vw;
+    font-style:italic;
+    color:#333;
+}
+
+@media screen and (max-width:480px) {
+    p, li, blockquote {
+        font-size: 1.3rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+}
